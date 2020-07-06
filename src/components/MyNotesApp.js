@@ -23,7 +23,7 @@ export default function MyNotesApp(){
       }, [notes]);
 
       return(
-            <div className="container">
+            <div className="px-20">
                   <MyNotesContext.Provider value = {{notes, dispatch}}>
                         <MyNoteList />
                         <MyNoteForm />

@@ -36,7 +36,7 @@ export default function TodosApp(){
      }, [savedTodos]);
 
      return (
-          <div>
+          <div className="px-20">
                <TodosContext.Provider value={{state, dispatch}}>
                     <TodosForm/>
                     <TodosList/>

@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="container">
+    <div className="bg-gray-200">
       <BrowserRouter>
         <Menu/>
       </BrowserRouter>

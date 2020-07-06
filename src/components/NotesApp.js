@@ -31,7 +31,7 @@ export default function NotesApp(props) {
       }
 
       return(
-            <div className="container">
+            <div className="px-20">
                   <h1>Notes</h1>
                   {notes.map((note,i) => (
                         <Note key={i}
