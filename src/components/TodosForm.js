@@ -38,7 +38,7 @@ export default function TodosForm() {
           <div>
                <form onSubmit={handleSubmit} className="flex justify-center p-5">
                     <input placeholder="Todo"
-                         className="borde-black border-solid border-2"
+                         className="border-black border-solid border-2"
                          type="text"
                          onChange={e=>setTodo(e.target.value)}
                          value={todo}
